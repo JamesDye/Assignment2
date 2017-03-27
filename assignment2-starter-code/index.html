@@ -54,9 +54,6 @@
        <h2>Already Bought:</h2>
        <ul>
          <li ng-repeat="item in bought.items">Bought {{item.quantity}} {{item.name}}</li>
-         <button class="btn btn-default" ng-click="buy.removeItem($index)">
-              <span1 class="glyphicon glyphicon-remove"></span1> Remove
-            </button>
        </ul>
        <div ng-if="bought.items.length == 0" class="emptyMessage">Nothing bought yet.</div>
      </div>

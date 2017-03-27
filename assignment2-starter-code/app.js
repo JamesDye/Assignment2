@@ -22,7 +22,7 @@
 
 		bought.items = ShoppingListCheckOffService.getBoughtItems();
 		bought.listSize = bought.items.length;
-	}
+}
 
 	function ShoppingListCheckOffService(){
 		var service = this;
